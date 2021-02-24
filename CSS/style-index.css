@@ -84,7 +84,7 @@ body {
   right: 20vw;
 }
 .item.one:hover {
-  transform: rotate(28deg);
+  transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
@@ -92,20 +92,20 @@ body {
   right: -9vw;
 }
 .item.two:hover {
-  transform: rotate(-8deg);
+  transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
 }
 .item.three:hover {
-  transform: rotate(-43deg);
+  transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
   left: -10vw;
 }
 .item.four:hover {
-  transform: rotate(3deg);
+  transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
@@ -113,7 +113,7 @@ body {
   right: -9vw;
 }
 .item.five:hover {
-  transform: rotate(9deg);
+  transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
