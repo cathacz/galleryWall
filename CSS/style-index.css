@@ -32,7 +32,7 @@ body {
   padding-bottom: 12%;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   display: inline-block;
-  margin: 1%;
+  margin: 5%;
 }
 .polaroid > img {
   max-width: 100%;
@@ -84,6 +84,7 @@ body {
   right: 20vw;
 }
 .item.one:hover {
+  transition: 1s;
   transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
@@ -92,12 +93,14 @@ body {
   right: -9vw;
 }
 .item.two:hover {
+  transition: 1s;
   transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
   position: relative;
 }
 .item.three:hover {
+  transition: 1s;
   transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
@@ -105,6 +108,7 @@ body {
   left: -10vw;
 }
 .item.four:hover {
+  transition: 1s;
   transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
@@ -113,6 +117,8 @@ body {
   right: -9vw;
 }
 .item.five:hover {
+  transition: 1s;
+
   transform: rotate(0deg);
   z-index: 100;
   opacity: 1;
