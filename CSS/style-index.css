@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.ttf");
+  src: url("../fonts/WorkSans-Medium.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Abril Fatface", cursive;
+  background-image: url(https://picsum.photos/id/307/1000/800);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+.wrapper {
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+  display: inline-block;
+}
+.polaroid {
+  background: #fff;
+  padding: 5%;
+  padding-bottom: 12%;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 1%;
+}
+.polaroid > img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+.item.one {
+  transform: rotate(28deg);
+  z-index: 1;
+  opacity: 0.5;
+  position: relative;
+  top: -15vh;
+  right: -9vw;
+}
+.item.two {
+  transform: rotate(-8deg);
+  z-index: 2;
+  opacity: 0.5;
+  position: relative;
+}
+.item.three {
+  transform: rotate(-43deg);
+  z-index: 3;
+  opacity: 0.5;
+  position: relative;
+  left: -10vw;
+}
+.item.four {
+  transform: rotate(3deg);
+  z-index: 4;
+  opacity: 0.5;
+  position: relative;
+  top: -27vh;
+  right: -9vw;
+}
+.item.five {
+  transform: rotate(9deg);
+  z-index: 5;
+  opacity: 0.5;
+  position: relative;
+  top: -41vh;
+  right: 20vw;
+}
