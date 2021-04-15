@@ -14,5 +14,135 @@
   font-family: "Roboto-medium";
   src: url("../../fonts/roboto/Roboto-Medium.ttf");
 }
+body {
+  background-image: url(../img/wooden-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: #212326;
+  width: 100vw;
+  height: fit-content;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  flex-direction: row;
+}
+nav a {
+  color: #d6d3d0;
+  font-family: "Roboto-regular";
+  text-decoration: none;
+}
+
+div .wrapper {
+  width: 100rem;
+  padding: 10rem;
+  text-align: center;
+  display: inline-block;
+}
+div .polaroid {
+  background: #fff;
+  padding: 2rem;
+  padding-bottom: 6rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 5rem;
+}
+div .polaroid img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+div .item {
+  width: 30vw;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+div .item.one {
+  transition: 1s;
+  transform: rotate(28deg);
+  z-index: 1;
+  opacity: 0.5;
+  position: relative;
+  top: -3vh;
+  right: -4vw;
+}
+div .item.one:hover {
+  transition: 1s;
+  transform: rotate(0deg);
+  z-index: 100;
+  opacity: 1;
+  position: relative;
+}
+div .item.two {
+  transition: 1s;
+  transform: rotate(-8deg);
+  z-index: 2;
+  opacity: 0.5;
+  position: relative;
+}
+div .item.two:hover {
+  transition: 1s;
+  transform: rotate(0deg);
+  z-index: 100;
+  opacity: 1;
+  position: relative;
+}
+div .item.three {
+  transition: 1s;
+  transform: rotate(-43deg);
+  z-index: 3;
+  opacity: 0.5;
+  position: relative;
+  left: 2vw;
+}
+div .item.three:hover {
+  transition: 1s;
+  transform: rotate(0deg);
+  z-index: 100;
+  opacity: 1;
+  position: relative;
+}
+div .item.four {
+  transition: 1s;
+  transform: rotate(8deg);
+  z-index: 4;
+  opacity: 0.5;
+  position: relative;
+  top: -70vh;
+  right: -19vw;
+}
+div .item.four:hover {
+  transition: 1s;
+  transform: rotate(0deg);
+  z-index: 100;
+  opacity: 1;
+  position: relative;
+}
+div .item.five {
+  transition: 1s;
+  transform: rotate(-4deg);
+  z-index: 5;
+  opacity: 0.5;
+  position: relative;
+  top: -64vh;
+  right: -19vw;
+}
+div .item.five:hover {
+  transition: 1s;
+  transform: rotate(0deg);
+  z-index: 100;
+  opacity: 1;
+  position: relative;
+}
 
 /*# sourceMappingURL=main.css.map */
