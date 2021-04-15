@@ -1,3 +1,10 @@
+// section {
+//   .polaroid {
+//     margin-top: auto;
+//     margin-bottom: auto;
+//   }
+// }
+
 div {
   .wrapper {
     width: 100rem;
@@ -5,7 +12,7 @@ div {
     text-align: center;
     display: inline-block;
   }
-  .polaroid {
+  .pol {
     background: #fff;
     padding: 2rem;
     padding-bottom: 6rem;
@@ -29,7 +36,6 @@ div {
       transition: 1s;
       transform: rotate(28deg);
       z-index: 1;
-      opacity: 0.5;
       position: relative;
       top: -3vh;
       right: -4vw;
@@ -39,13 +45,13 @@ div {
         z-index: 100;
         opacity: 1;
         position: relative;
+        filter: grayscale(0%);
       }
     }
     &.two {
       transition: 1s;
       transform: rotate(-8deg);
       z-index: 2;
-      opacity: 0.5;
       position: relative;
       &:hover {
         transition: 1s;
@@ -53,13 +59,13 @@ div {
         z-index: 100;
         opacity: 1;
         position: relative;
+        filter: grayscale(0%);
       }
     }
     &.three {
       transition: 1s;
       transform: rotate(-43deg);
       z-index: 3;
-      opacity: 0.5;
       position: relative;
       left: 2vw;
       &:hover {
@@ -68,13 +74,13 @@ div {
         z-index: 100;
         opacity: 1;
         position: relative;
+        filter: grayscale(0%);
       }
     }
     &.four {
       transition: 1s;
       transform: rotate(8deg);
       z-index: 4;
-      opacity: 0.5;
       position: relative;
       top: -70vh;
       right: -19vw;
@@ -84,13 +90,13 @@ div {
         z-index: 100;
         opacity: 1;
         position: relative;
+        filter: grayscale(0%);
       }
     }
     &.five {
       transition: 1s;
       transform: rotate(-4deg);
       z-index: 5;
-      opacity: 0.5;
       position: relative;
       top: -64vh;
       right: -19vw;
@@ -100,6 +106,7 @@ div {
         z-index: 100;
         opacity: 1;
         position: relative;
+        filter: grayscale(0%);
       }
     }
   }
