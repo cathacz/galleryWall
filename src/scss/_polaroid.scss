@@ -1,0 +1,106 @@
+div {
+  .wrapper {
+    width: 100rem;
+    padding: 10rem;
+    text-align: center;
+    display: inline-block;
+  }
+  .polaroid {
+    background: #fff;
+    padding: 2rem;
+    padding-bottom: 8rem;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 5rem;
+    img {
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+    }
+  }
+
+  .item {
+    width: 30vw;
+    display: inline-block;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+
+    &.one {
+      transition: 1s;
+      transform: rotate(28deg);
+      z-index: 1;
+      opacity: 0.5;
+      position: relative;
+      top: 12vh;
+      right: -6vw;
+      &:hover {
+        transition: 1s;
+        transform: rotate(0deg);
+        z-index: 100;
+        opacity: 1;
+        position: relative;
+      }
+    }
+    &.two {
+      transition: 1s;
+      transform: rotate(-8deg);
+      z-index: 2;
+      opacity: 0.5;
+      position: relative;
+      &:hover {
+        transition: 1s;
+        transform: rotate(0deg);
+        z-index: 100;
+        opacity: 1;
+        position: relative;
+      }
+    }
+    &.three {
+      transition: 1s;
+      transform: rotate(-43deg);
+      z-index: 3;
+      opacity: 0.5;
+      position: relative;
+      left: -8vw;
+      &:hover {
+        transition: 1s;
+        transform: rotate(0deg);
+        z-index: 100;
+        opacity: 1;
+        position: relative;
+      }
+    }
+    &.four {
+      transition: 1s;
+      transform: rotate(3deg);
+      z-index: 4;
+      opacity: 0.5;
+      position: relative;
+      top: -49vh;
+      right: -19vw;
+      &:hover {
+        transition: 1s;
+        transform: rotate(0deg);
+        z-index: 100;
+        opacity: 1;
+        position: relative;
+      }
+    }
+    &.five {
+      transition: 1s;
+      transform: rotate(12deg);
+      z-index: 5;
+      opacity: 0.5;
+      position: relative;
+      top: -51vh;
+      right: -16vw;
+      &:hover {
+        transition: 1s;
+        transform: rotate(0deg);
+        z-index: 100;
+        opacity: 1;
+        position: relative;
+      }
+    }
+  }
+}
