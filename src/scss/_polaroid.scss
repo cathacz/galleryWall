@@ -8,7 +8,7 @@ div {
   .polaroid {
     background: #fff;
     padding: 2rem;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
     box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
     display: inline-block;
     margin: 5rem;
@@ -31,8 +31,8 @@ div {
       z-index: 1;
       opacity: 0.5;
       position: relative;
-      top: 12vh;
-      right: -6vw;
+      top: -3vh;
+      right: -4vw;
       &:hover {
         transition: 1s;
         transform: rotate(0deg);
@@ -61,7 +61,7 @@ div {
       z-index: 3;
       opacity: 0.5;
       position: relative;
-      left: -8vw;
+      left: 2vw;
       &:hover {
         transition: 1s;
         transform: rotate(0deg);
@@ -72,11 +72,11 @@ div {
     }
     &.four {
       transition: 1s;
-      transform: rotate(3deg);
+      transform: rotate(8deg);
       z-index: 4;
       opacity: 0.5;
       position: relative;
-      top: -49vh;
+      top: -70vh;
       right: -19vw;
       &:hover {
         transition: 1s;
@@ -88,12 +88,12 @@ div {
     }
     &.five {
       transition: 1s;
-      transform: rotate(12deg);
+      transform: rotate(-4deg);
       z-index: 5;
       opacity: 0.5;
       position: relative;
-      top: -51vh;
-      right: -16vw;
+      top: -64vh;
+      right: -19vw;
       &:hover {
         transition: 1s;
         transform: rotate(0deg);
